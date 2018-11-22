@@ -93,7 +93,7 @@ FOUNDATION_EXPORT const unsigned char XJKitVersionString[];
  */
 
 /*
- 支持 Bitcode
+ Bitcode NO
  
  外部工程
  @require

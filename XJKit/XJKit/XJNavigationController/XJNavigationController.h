@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
     };
  @param navConfig 传入字典参数
  */
-- (void)settingNavStyle:(NSDictionary *)navConfig UI_APPEARANCE_SELECTOR DEPRECATED_MSG_ATTRIBUTE("Use property setting") ;
+- (void)settingNavStyle:(NSDictionary *)navConfig DEPRECATED_MSG_ATTRIBUTE("Use property setting");
 
 
 /**

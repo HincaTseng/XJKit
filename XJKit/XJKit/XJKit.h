@@ -75,7 +75,8 @@ FOUNDATION_EXPORT const unsigned char XJKitVersionString[];
 #import <XJKit/XJConstraintEqualToConstant.h>
 #pragma mark 获取某个类的属性和方法
 #import <XJKit/ShowPropertyFunc.h>
-
+#pragma mark Ping
+#import <XJKit/XJSonPing.h>
 
 #endif
 

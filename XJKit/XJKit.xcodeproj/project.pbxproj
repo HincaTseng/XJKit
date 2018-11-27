@@ -78,6 +78,10 @@
 		BFC50DE21FBD65B400D2FCAA /* ChangeLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC50DE01FBD65B400D2FCAA /* ChangeLanguage.m */; };
 		BFCAC574216F32F000E31C56 /* XJNet.h in Headers */ = {isa = PBXBuildFile; fileRef = BFCAC572216F32F000E31C56 /* XJNet.h */; };
 		BFCAC575216F32F000E31C56 /* XJNet.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCAC573216F32F000E31C56 /* XJNet.m */; };
+		BFD79AAA21AD316F001E7756 /* LDSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD79AA621AD316F001E7756 /* LDSimplePing.m */; };
+		BFD79AAB21AD316F001E7756 /* XJSonPing.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD79AA721AD316F001E7756 /* XJSonPing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFD79AAC21AD316F001E7756 /* XJSonPing.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD79AA821AD316F001E7756 /* XJSonPing.m */; };
+		BFD79AAD21AD316F001E7756 /* LDSimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD79AA921AD316F001E7756 /* LDSimplePing.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BFE4E4C21FC7BFC300FA757E /* XJFontSize.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE4E4B81FC7BFC300FA757E /* XJFontSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFE4E4C31FC7BFC300FA757E /* XJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE4E4B91FC7BFC300FA757E /* XJButton.m */; };
 		BFE4E4C41FC7BFC300FA757E /* XJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE4E4BA1FC7BFC300FA757E /* XJLabel.m */; };
@@ -177,6 +181,10 @@
 		BFC50DE01FBD65B400D2FCAA /* ChangeLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeLanguage.m; sourceTree = "<group>"; };
 		BFCAC572216F32F000E31C56 /* XJNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJNet.h; sourceTree = "<group>"; };
 		BFCAC573216F32F000E31C56 /* XJNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJNet.m; sourceTree = "<group>"; };
+		BFD79AA621AD316F001E7756 /* LDSimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDSimplePing.m; sourceTree = "<group>"; };
+		BFD79AA721AD316F001E7756 /* XJSonPing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJSonPing.h; sourceTree = "<group>"; };
+		BFD79AA821AD316F001E7756 /* XJSonPing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJSonPing.m; sourceTree = "<group>"; };
+		BFD79AA921AD316F001E7756 /* LDSimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDSimplePing.h; sourceTree = "<group>"; };
 		BFE4E4B51FC7BFC300FA757E /* XJTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTextField.h; sourceTree = "<group>"; };
 		BFE4E4B61FC7BFC300FA757E /* XJLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJLabel.h; sourceTree = "<group>"; };
 		BFE4E4B71FC7BFC300FA757E /* XJTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTextView.h; sourceTree = "<group>"; };
@@ -467,6 +475,7 @@
 			children = (
 				BFC50DC71FBD651500D2FCAA /* XJKit.h */,
 				BF022E0E20BFA7A9001A662D /* AFNetworking.framework */,
+				BFD79AA521AD316F001E7756 /* XJPing */,
 				BF668230215A08A300BB880F /* XJUTF */,
 				BF60C53B21256C9E0022B0E7 /* XJCornerRadius */,
 				BFBC6F532124085100CBBD65 /* XJHP */,
@@ -520,6 +529,17 @@
 				BF7D4A9D21A3949000730CE9 /* XJNavigationController.m */,
 			);
 			path = XJNavigationController;
+			sourceTree = "<group>";
+		};
+		BFD79AA521AD316F001E7756 /* XJPing */ = {
+			isa = PBXGroup;
+			children = (
+				BFD79AA621AD316F001E7756 /* LDSimplePing.m */,
+				BFD79AA721AD316F001E7756 /* XJSonPing.h */,
+				BFD79AA821AD316F001E7756 /* XJSonPing.m */,
+				BFD79AA921AD316F001E7756 /* LDSimplePing.h */,
+			);
+			path = XJPing;
 			sourceTree = "<group>";
 		};
 		BFE4E4B41FC7BFC300FA757E /* XJFontSize */ = {
@@ -620,9 +640,11 @@
 				BF60C54221256CDF0022B0E7 /* XJCornerRadius.h in Headers */,
 				BF41E6A020B50D210093A77B /* UIColor+XJHex.h in Headers */,
 				BF0157032117EFDB007C651F /* UIImage+QuickShot.h in Headers */,
+				BFD79AAB21AD316F001E7756 /* XJSonPing.h in Headers */,
 				BF98ECF12109650B00DF3019 /* ShowPropertyFunc.h in Headers */,
 				BF084E86212500D80043DA57 /* XJHP.h in Headers */,
 				BF668233215A08F100BB880F /* XJNSStringUTF.h in Headers */,
+				BFD79AAD21AD316F001E7756 /* LDSimplePing.h in Headers */,
 				BFBB6EAF210087780093DC1F /* UIView+Extension.h in Headers */,
 				BF2D7DBB20E1E1F30050E5D4 /* XJURLSchemeOpen.h in Headers */,
 				BF4CCDDE1FD7CE2B00280349 /* UIImage+XJBlur.h in Headers */,
@@ -742,6 +764,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFCAC575216F32F000E31C56 /* XJNet.m in Sources */,
+				BFD79AAC21AD316F001E7756 /* XJSonPing.m in Sources */,
 				BFF78A041FC5508200823667 /* XJRootVC.m in Sources */,
 				BFF789FF1FC54F4800823667 /* XJSuperView.m in Sources */,
 				BFE83D9D20BD1DA90068F639 /* CommonFuction.m in Sources */,
@@ -776,6 +799,7 @@
 				BF4232A5208ED50A0042A749 /* XMTimePickerView.m in Sources */,
 				BF022E1420BFA829001A662D /* XJAFSubManager.m in Sources */,
 				BF9CFC0E20ABF3330003E898 /* UIImage+XJCompress.m in Sources */,
+				BFD79AAA21AD316F001E7756 /* LDSimplePing.m in Sources */,
 				BF4CCDD01FD7CC3200280349 /* NSDate+Extension.m in Sources */,
 				BFE4E4C61FC7BFC300FA757E /* XJTextView.m in Sources */,
 				BF022DEC20BF8497001A662D /* UIImage+XJOrientation.m in Sources */,

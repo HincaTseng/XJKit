@@ -27,6 +27,9 @@
 		BF0721E820FEF1B100630196 /* UIImage+ImageRoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0721E620FEF1B100630196 /* UIImage+ImageRoundedCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF0721E920FEF1B100630196 /* UIImage+ImageRoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0721E720FEF1B100630196 /* UIImage+ImageRoundedCorner.m */; };
 		BF084E86212500D80043DA57 /* XJHP.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBC6F5821240FE500CBBD65 /* XJHP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF26AEE421B11B1B00B925E5 /* XJAnimationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BF26AEE221B11B1B00B925E5 /* XJAnimationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF26AEE521B11B1B00B925E5 /* XJAnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26AEE321B11B1B00B925E5 /* XJAnimationDelegate.m */; };
+		BF26AEE721B11C2B00B925E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF26AEE621B11C2B00B925E5 /* QuartzCore.framework */; };
 		BF2D7DBA20E1E1F30050E5D4 /* XJURLSchemeOpen.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D7DB520E1E1F30050E5D4 /* XJURLSchemeOpen.m */; };
 		BF2D7DBB20E1E1F30050E5D4 /* XJURLSchemeOpen.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2D7DB620E1E1F30050E5D4 /* XJURLSchemeOpen.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF2D7DBC20E1E1F30050E5D4 /* XJCTCellularData.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D7DB820E1E1F30050E5D4 /* XJCTCellularData.m */; };
@@ -56,7 +59,7 @@
 		BF690BEC20EF920900293A7C /* XJConstraintEqualToConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = BF690BEA20EF920900293A7C /* XJConstraintEqualToConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF690BED20EF920900293A7C /* XJConstraintEqualToConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = BF690BEB20EF920900293A7C /* XJConstraintEqualToConstant.m */; };
 		BF6FCD5C200DDD59008CE363 /* XJGCD_Multithread.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6FCD5A200DDD59008CE363 /* XJGCD_Multithread.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF7D4A9E21A3949000730CE9 /* XJNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7D4A9C21A3949000730CE9 /* XJNavigationController.h */; };
+		BF7D4A9E21A3949000730CE9 /* XJNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7D4A9C21A3949000730CE9 /* XJNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF7D4A9F21A3949000730CE9 /* XJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7D4A9D21A3949000730CE9 /* XJNavigationController.m */; };
 		BF889BDE21031CA900CFEDB6 /* XJSemaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF889BDC21031CA900CFEDB6 /* XJSemaphore.h */; };
 		BF889BDF21031CA900CFEDB6 /* XJSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = BF889BDD21031CA900CFEDB6 /* XJSemaphore.m */; };
@@ -125,6 +128,9 @@
 		BF022E1220BFA829001A662D /* XJAFSubManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJAFSubManager.m; sourceTree = "<group>"; };
 		BF0721E620FEF1B100630196 /* UIImage+ImageRoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageRoundedCorner.h"; sourceTree = "<group>"; };
 		BF0721E720FEF1B100630196 /* UIImage+ImageRoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageRoundedCorner.m"; sourceTree = "<group>"; };
+		BF26AEE221B11B1B00B925E5 /* XJAnimationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJAnimationDelegate.h; sourceTree = "<group>"; };
+		BF26AEE321B11B1B00B925E5 /* XJAnimationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJAnimationDelegate.m; sourceTree = "<group>"; };
+		BF26AEE621B11C2B00B925E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BF2D7DB520E1E1F30050E5D4 /* XJURLSchemeOpen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJURLSchemeOpen.m; sourceTree = "<group>"; };
 		BF2D7DB620E1E1F30050E5D4 /* XJURLSchemeOpen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJURLSchemeOpen.h; sourceTree = "<group>"; };
 		BF2D7DB820E1E1F30050E5D4 /* XJCTCellularData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJCTCellularData.m; sourceTree = "<group>"; };
@@ -216,6 +222,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF26AEE721B11C2B00B925E5 /* QuartzCore.framework in Frameworks */,
 				BF4CCDE11FD7CEEA00280349 /* Accelerate.framework in Frameworks */,
 				BF022E0F20BFA7A9001A662D /* AFNetworking.framework in Frameworks */,
 			);
@@ -239,6 +246,15 @@
 				BF022E1220BFA829001A662D /* XJAFSubManager.m */,
 			);
 			path = XJAFSubManager;
+			sourceTree = "<group>";
+		};
+		BF26AEE121B11ADF00B925E5 /* XJAnimationDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BF26AEE221B11B1B00B925E5 /* XJAnimationDelegate.h */,
+				BF26AEE321B11B1B00B925E5 /* XJAnimationDelegate.m */,
+			);
+			path = XJAnimationDelegate;
 			sourceTree = "<group>";
 		};
 		BF2D7DB420E1E1F30050E5D4 /* XJURLSchemeOpen */ = {
@@ -328,6 +344,7 @@
 		BF4CCDDF1FD7CEEA00280349 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF26AEE621B11C2B00B925E5 /* QuartzCore.framework */,
 				BF4CCDE01FD7CEEA00280349 /* Accelerate.framework */,
 			);
 			name = Frameworks;
@@ -474,6 +491,7 @@
 			isa = PBXGroup;
 			children = (
 				BFC50DC71FBD651500D2FCAA /* XJKit.h */,
+				BF26AEE121B11ADF00B925E5 /* XJAnimationDelegate */,
 				BF022E0E20BFA7A9001A662D /* AFNetworking.framework */,
 				BFD79AA521AD316F001E7756 /* XJPing */,
 				BF668230215A08A300BB880F /* XJUTF */,
@@ -534,10 +552,10 @@
 		BFD79AA521AD316F001E7756 /* XJPing */ = {
 			isa = PBXGroup;
 			children = (
-				BFD79AA621AD316F001E7756 /* LDSimplePing.m */,
 				BFD79AA721AD316F001E7756 /* XJSonPing.h */,
 				BFD79AA821AD316F001E7756 /* XJSonPing.m */,
 				BFD79AA921AD316F001E7756 /* LDSimplePing.h */,
+				BFD79AA621AD316F001E7756 /* LDSimplePing.m */,
 			);
 			path = XJPing;
 			sourceTree = "<group>";
@@ -623,7 +641,6 @@
 				BF98ECF6210AEA1E00DF3019 /* NSNull+JSON.h in Headers */,
 				BFE4E4D11FC7C02A00FA757E /* XJSafeObject.h in Headers */,
 				BFE4E4C21FC7BFC300FA757E /* XJFontSize.h in Headers */,
-				BF7D4A9E21A3949000730CE9 /* XJNavigationController.h in Headers */,
 				BF4232A6208ED50A0042A749 /* XMTimePickerView.h in Headers */,
 				BF889BDE21031CA900CFEDB6 /* XJSemaphore.h in Headers */,
 				BFC22B091FCD5A460034739A /* UIViewController+Type.h in Headers */,
@@ -642,6 +659,8 @@
 				BF0157032117EFDB007C651F /* UIImage+QuickShot.h in Headers */,
 				BFD79AAB21AD316F001E7756 /* XJSonPing.h in Headers */,
 				BF98ECF12109650B00DF3019 /* ShowPropertyFunc.h in Headers */,
+				BF7D4A9E21A3949000730CE9 /* XJNavigationController.h in Headers */,
+				BF26AEE421B11B1B00B925E5 /* XJAnimationDelegate.h in Headers */,
 				BF084E86212500D80043DA57 /* XJHP.h in Headers */,
 				BF668233215A08F100BB880F /* XJNSStringUTF.h in Headers */,
 				BFD79AAD21AD316F001E7756 /* LDSimplePing.h in Headers */,
@@ -800,6 +819,7 @@
 				BF022E1420BFA829001A662D /* XJAFSubManager.m in Sources */,
 				BF9CFC0E20ABF3330003E898 /* UIImage+XJCompress.m in Sources */,
 				BFD79AAA21AD316F001E7756 /* LDSimplePing.m in Sources */,
+				BF26AEE521B11B1B00B925E5 /* XJAnimationDelegate.m in Sources */,
 				BF4CCDD01FD7CC3200280349 /* NSDate+Extension.m in Sources */,
 				BFE4E4C61FC7BFC300FA757E /* XJTextView.m in Sources */,
 				BF022DEC20BF8497001A662D /* UIImage+XJOrientation.m in Sources */,

@@ -23,4 +23,26 @@
     [super drawRect:rect];
 }
 
+//fix iOS 11.2 点击出现输入框，内存泄露。但还是走dealloc了。
+- (void)didMoveToWindow {
+    [super didMoveToWindow];
+    
+    if (@available(iOS 11.2,*)) {
+        NSString *keyPath = @"textContentView.provider";
+        @try {
+            if (self.window) {
+                id provider = [self valueForKeyPath:keyPath];
+                if (!provider && self) {
+                    [self setValue:self forKeyPath:keyPath];
+                }
+            } else {
+                [self setValue:nil forKeyPath:keyPath];
+            }
+        } @catch (NSException *exception) {
+            NSLog(@"%@",exception);
+        }
+    }
+}
+
+
 @end

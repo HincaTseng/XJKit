@@ -61,10 +61,14 @@
 		BF690BEC20EF920900293A7C /* XJConstraintEqualToConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = BF690BEA20EF920900293A7C /* XJConstraintEqualToConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF690BED20EF920900293A7C /* XJConstraintEqualToConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = BF690BEB20EF920900293A7C /* XJConstraintEqualToConstant.m */; };
 		BF6FCD5C200DDD59008CE363 /* XJGCD_Multithread.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6FCD5A200DDD59008CE363 /* XJGCD_Multithread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF7A434421F5E0E30075CED9 /* XJMD5File.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7A434221F5E0E30075CED9 /* XJMD5File.h */; };
+		BF7A434521F5E0E30075CED9 /* XJMD5File.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7A434321F5E0E30075CED9 /* XJMD5File.m */; };
 		BF7D4A9E21A3949000730CE9 /* XJNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7D4A9C21A3949000730CE9 /* XJNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF7D4A9F21A3949000730CE9 /* XJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7D4A9D21A3949000730CE9 /* XJNavigationController.m */; };
 		BF889BDE21031CA900CFEDB6 /* XJSemaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF889BDC21031CA900CFEDB6 /* XJSemaphore.h */; };
 		BF889BDF21031CA900CFEDB6 /* XJSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = BF889BDD21031CA900CFEDB6 /* XJSemaphore.m */; };
+		BF95BA3121F5750A006832E2 /* XJGetFileSize.h in Headers */ = {isa = PBXBuildFile; fileRef = BF95BA2F21F5750A006832E2 /* XJGetFileSize.h */; };
+		BF95BA3221F5750A006832E2 /* XJGetFileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = BF95BA3021F5750A006832E2 /* XJGetFileSize.m */; };
 		BF98ECF12109650B00DF3019 /* ShowPropertyFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = BF98ECEF2109650B00DF3019 /* ShowPropertyFunc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF98ECF22109650B00DF3019 /* ShowPropertyFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = BF98ECF02109650B00DF3019 /* ShowPropertyFunc.m */; };
 		BF98ECF6210AEA1E00DF3019 /* NSNull+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = BF98ECF4210AEA1E00DF3019 /* NSNull+JSON.h */; };
@@ -166,10 +170,14 @@
 		BF690BEA20EF920900293A7C /* XJConstraintEqualToConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJConstraintEqualToConstant.h; sourceTree = "<group>"; };
 		BF690BEB20EF920900293A7C /* XJConstraintEqualToConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJConstraintEqualToConstant.m; sourceTree = "<group>"; };
 		BF6FCD5A200DDD59008CE363 /* XJGCD_Multithread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJGCD_Multithread.h; sourceTree = "<group>"; };
+		BF7A434221F5E0E30075CED9 /* XJMD5File.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJMD5File.h; sourceTree = "<group>"; };
+		BF7A434321F5E0E30075CED9 /* XJMD5File.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJMD5File.m; sourceTree = "<group>"; };
 		BF7D4A9C21A3949000730CE9 /* XJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJNavigationController.h; sourceTree = "<group>"; };
 		BF7D4A9D21A3949000730CE9 /* XJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJNavigationController.m; sourceTree = "<group>"; };
 		BF889BDC21031CA900CFEDB6 /* XJSemaphore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJSemaphore.h; sourceTree = "<group>"; };
 		BF889BDD21031CA900CFEDB6 /* XJSemaphore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJSemaphore.m; sourceTree = "<group>"; };
+		BF95BA2F21F5750A006832E2 /* XJGetFileSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJGetFileSize.h; sourceTree = "<group>"; };
+		BF95BA3021F5750A006832E2 /* XJGetFileSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJGetFileSize.m; sourceTree = "<group>"; };
 		BF98ECEF2109650B00DF3019 /* ShowPropertyFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowPropertyFunc.h; sourceTree = "<group>"; };
 		BF98ECF02109650B00DF3019 /* ShowPropertyFunc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowPropertyFunc.m; sourceTree = "<group>"; };
 		BF98ECF4210AEA1E00DF3019 /* NSNull+JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNull+JSON.h"; sourceTree = "<group>"; };
@@ -420,6 +428,15 @@
 			path = XJGCD;
 			sourceTree = "<group>";
 		};
+		BF7A434121F5E0CE0075CED9 /* XJMD5File */ = {
+			isa = PBXGroup;
+			children = (
+				BF7A434221F5E0E30075CED9 /* XJMD5File.h */,
+				BF7A434321F5E0E30075CED9 /* XJMD5File.m */,
+			);
+			path = XJMD5File;
+			sourceTree = "<group>";
+		};
 		BF889BDB21031C8900CFEDB6 /* GCDsemaphore */ = {
 			isa = PBXGroup;
 			children = (
@@ -427,6 +444,15 @@
 				BF889BDD21031CA900CFEDB6 /* XJSemaphore.m */,
 			);
 			path = GCDsemaphore;
+			sourceTree = "<group>";
+		};
+		BF95BA2E21F574F3006832E2 /* XJFileSize */ = {
+			isa = PBXGroup;
+			children = (
+				BF95BA2F21F5750A006832E2 /* XJGetFileSize.h */,
+				BF95BA3021F5750A006832E2 /* XJGetFileSize.m */,
+			);
+			path = XJFileSize;
 			sourceTree = "<group>";
 		};
 		BF98ECEA21094C8E00DF3019 /* XJRuntime */ = {
@@ -504,9 +530,11 @@
 			isa = PBXGroup;
 			children = (
 				BFC50DC71FBD651500D2FCAA /* XJKit.h */,
+				BF022E0E20BFA7A9001A662D /* AFNetworking.framework */,
+				BF7A434121F5E0CE0075CED9 /* XJMD5File */,
+				BF95BA2E21F574F3006832E2 /* XJFileSize */,
 				BF07610B21E079620071326A /* XJUserObject */,
 				BF26AEE121B11ADF00B925E5 /* XJAnimationDelegate */,
-				BF022E0E20BFA7A9001A662D /* AFNetworking.framework */,
 				BFD79AA521AD316F001E7756 /* XJPing */,
 				BF668230215A08A300BB880F /* XJUTF */,
 				BF60C53B21256C9E0022B0E7 /* XJCornerRadius */,
@@ -676,6 +704,8 @@
 				BF98ECF12109650B00DF3019 /* ShowPropertyFunc.h in Headers */,
 				BF7D4A9E21A3949000730CE9 /* XJNavigationController.h in Headers */,
 				BF26AEE421B11B1B00B925E5 /* XJAnimationDelegate.h in Headers */,
+				BF7A434421F5E0E30075CED9 /* XJMD5File.h in Headers */,
+				BF95BA3121F5750A006832E2 /* XJGetFileSize.h in Headers */,
 				BF084E86212500D80043DA57 /* XJHP.h in Headers */,
 				BF668233215A08F100BB880F /* XJNSStringUTF.h in Headers */,
 				BFD79AAD21AD316F001E7756 /* LDSimplePing.h in Headers */,
@@ -798,6 +828,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFCAC575216F32F000E31C56 /* XJNet.m in Sources */,
+				BF7A434521F5E0E30075CED9 /* XJMD5File.m in Sources */,
 				BFD79AAC21AD316F001E7756 /* XJSonPing.m in Sources */,
 				BFF78A041FC5508200823667 /* XJRootVC.m in Sources */,
 				BFF789FF1FC54F4800823667 /* XJSuperView.m in Sources */,
@@ -814,6 +845,7 @@
 				BF0157022117EFDB007C651F /* UIImage+QuickShot.m in Sources */,
 				BF41E6AB20B50EF90093A77B /* UIImage+XJCameraTools.m in Sources */,
 				BF57824420896C2A003DF8DF /* XJMacAddress.m in Sources */,
+				BF95BA3221F5750A006832E2 /* XJGetFileSize.m in Sources */,
 				BF668234215A08F100BB880F /* XJNSStringUTF.m in Sources */,
 				BF41E69F20B50D210093A77B /* UITextField+XJPlaceHolderColor.m in Sources */,
 				BFE5311F2171B84D0029FFD5 /* XJRunMethodFix.m in Sources */,

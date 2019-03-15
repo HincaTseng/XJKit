@@ -103,4 +103,23 @@
 
  */
 +(NSString *)convertToJsonData:(NSDictionary *)dict;
+
+
+/**
+ 根据nums位数随机生成数字和字母随机数
+
+ @param num 位数
+ @return 数字和字母随机数
+ */
++ (NSString *)getRandomStringWithNum:(NSInteger)num;
+
+/**
+ 根据范围随机生成数字
+
+ @param from 取值开始值
+ @param to 取值结束值
+ @return 开始值到结束值范围内的值
+ */
++ (NSString *)getRandomNumber:(int)from to:(int)to;
+
 @end

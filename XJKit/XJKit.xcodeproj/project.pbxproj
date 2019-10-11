@@ -29,6 +29,8 @@
 		BF07610E21E079620071326A /* XJUserObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BF07610C21E079620071326A /* XJUserObject.h */; };
 		BF07610F21E079620071326A /* XJUserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BF07610D21E079620071326A /* XJUserObject.m */; };
 		BF084E86212500D80043DA57 /* XJHP.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBC6F5821240FE500CBBD65 /* XJHP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF13B882235062FB00C24350 /* XJImageCompress.h in Headers */ = {isa = PBXBuildFile; fileRef = BF13B880235062FB00C24350 /* XJImageCompress.h */; };
+		BF13B883235062FB00C24350 /* XJImageCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13B881235062FB00C24350 /* XJImageCompress.m */; };
 		BF26AEE421B11B1B00B925E5 /* XJAnimationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BF26AEE221B11B1B00B925E5 /* XJAnimationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF26AEE521B11B1B00B925E5 /* XJAnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26AEE321B11B1B00B925E5 /* XJAnimationDelegate.m */; };
 		BF26AEE721B11C2B00B925E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF26AEE621B11C2B00B925E5 /* QuartzCore.framework */; };
@@ -51,6 +53,8 @@
 		BF4CCDDC1FD7CE2B00280349 /* UIImage+XJBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCDD81FD7CE2B00280349 /* UIImage+XJBlur.m */; };
 		BF4CCDDE1FD7CE2B00280349 /* UIImage+XJBlur.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4CCDDA1FD7CE2B00280349 /* UIImage+XJBlur.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF4CCDE11FD7CEEA00280349 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4CCDE01FD7CEEA00280349 /* Accelerate.framework */; };
+		BF525F69231DFF070018667C /* NSDate+BeforeDate.h in Headers */ = {isa = PBXBuildFile; fileRef = BF525F67231DFF070018667C /* NSDate+BeforeDate.h */; };
+		BF525F6A231DFF070018667C /* NSDate+BeforeDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF525F68231DFF070018667C /* NSDate+BeforeDate.m */; };
 		BF52B4901FD0458E0046C9A9 /* UIView+XJViewNewXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = BF52B48E1FD0458E0046C9A9 /* UIView+XJViewNewXIB.m */; };
 		BF57824320896C2A003DF8DF /* XJMacAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = BF57824120896C2A003DF8DF /* XJMacAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF57824420896C2A003DF8DF /* XJMacAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57824220896C2A003DF8DF /* XJMacAddress.m */; };
@@ -136,6 +140,8 @@
 		BF0721E720FEF1B100630196 /* UIImage+ImageRoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageRoundedCorner.m"; sourceTree = "<group>"; };
 		BF07610C21E079620071326A /* XJUserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJUserObject.h; sourceTree = "<group>"; };
 		BF07610D21E079620071326A /* XJUserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJUserObject.m; sourceTree = "<group>"; };
+		BF13B880235062FB00C24350 /* XJImageCompress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJImageCompress.h; sourceTree = "<group>"; };
+		BF13B881235062FB00C24350 /* XJImageCompress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJImageCompress.m; sourceTree = "<group>"; };
 		BF26AEE221B11B1B00B925E5 /* XJAnimationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJAnimationDelegate.h; sourceTree = "<group>"; };
 		BF26AEE321B11B1B00B925E5 /* XJAnimationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJAnimationDelegate.m; sourceTree = "<group>"; };
 		BF26AEE621B11C2B00B925E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -159,6 +165,8 @@
 		BF4CCDD81FD7CE2B00280349 /* UIImage+XJBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XJBlur.m"; sourceTree = "<group>"; };
 		BF4CCDDA1FD7CE2B00280349 /* UIImage+XJBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XJBlur.h"; sourceTree = "<group>"; };
 		BF4CCDE01FD7CEEA00280349 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		BF525F67231DFF070018667C /* NSDate+BeforeDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+BeforeDate.h"; sourceTree = "<group>"; };
+		BF525F68231DFF070018667C /* NSDate+BeforeDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BeforeDate.m"; sourceTree = "<group>"; };
 		BF52B48E1FD0458E0046C9A9 /* UIView+XJViewNewXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XJViewNewXIB.m"; sourceTree = "<group>"; };
 		BF52B48F1FD0458E0046C9A9 /* UIView+XJViewNewXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XJViewNewXIB.h"; sourceTree = "<group>"; };
 		BF57824120896C2A003DF8DF /* XJMacAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJMacAddress.h; sourceTree = "<group>"; };
@@ -269,6 +277,15 @@
 			path = XJUserObject;
 			sourceTree = "<group>";
 		};
+		BF13B87F235062D400C24350 /* XJImageCompress */ = {
+			isa = PBXGroup;
+			children = (
+				BF13B880235062FB00C24350 /* XJImageCompress.h */,
+				BF13B881235062FB00C24350 /* XJImageCompress.m */,
+			);
+			path = XJImageCompress;
+			sourceTree = "<group>";
+		};
 		BF26AEE121B11ADF00B925E5 /* XJAnimationDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -369,6 +386,15 @@
 				BF4CCDE01FD7CEEA00280349 /* Accelerate.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF525F66231DFEDC0018667C /* XJDate */ = {
+			isa = PBXGroup;
+			children = (
+				BF525F67231DFF070018667C /* NSDate+BeforeDate.h */,
+				BF525F68231DFF070018667C /* NSDate+BeforeDate.m */,
+			);
+			path = XJDate;
 			sourceTree = "<group>";
 		};
 		BF52B48D1FD0458E0046C9A9 /* UIVIew */ = {
@@ -530,6 +556,8 @@
 			isa = PBXGroup;
 			children = (
 				BFC50DC71FBD651500D2FCAA /* XJKit.h */,
+				BF13B87F235062D400C24350 /* XJImageCompress */,
+				BF525F66231DFEDC0018667C /* XJDate */,
 				BF022E0E20BFA7A9001A662D /* AFNetworking.framework */,
 				BF7A434121F5E0CE0075CED9 /* XJMD5File */,
 				BF95BA2E21F574F3006832E2 /* XJFileSize */,
@@ -686,6 +714,7 @@
 				BFE4E4C21FC7BFC300FA757E /* XJFontSize.h in Headers */,
 				BF4232A6208ED50A0042A749 /* XMTimePickerView.h in Headers */,
 				BF889BDE21031CA900CFEDB6 /* XJSemaphore.h in Headers */,
+				BF525F69231DFF070018667C /* NSDate+BeforeDate.h in Headers */,
 				BFC22B091FCD5A460034739A /* UIViewController+Type.h in Headers */,
 				BF6FCD5C200DDD59008CE363 /* XJGCD_Multithread.h in Headers */,
 				BFF789FE1FC54F4800823667 /* XJSuperView.h in Headers */,
@@ -711,6 +740,7 @@
 				BFD79AAD21AD316F001E7756 /* LDSimplePing.h in Headers */,
 				BFBB6EAF210087780093DC1F /* UIView+Extension.h in Headers */,
 				BF2D7DBB20E1E1F30050E5D4 /* XJURLSchemeOpen.h in Headers */,
+				BF13B882235062FB00C24350 /* XJImageCompress.h in Headers */,
 				BF4CCDDE1FD7CE2B00280349 /* UIImage+XJBlur.h in Headers */,
 				BF022E1320BFA829001A662D /* XJAFSubManager.h in Headers */,
 				BF9CFC0F20ABF3330003E898 /* UIImage+XJCompress.h in Headers */,
@@ -836,6 +866,7 @@
 				BFE4E4D21FC7C02A00FA757E /* XJSafeObject.m in Sources */,
 				BF30D09820A012F600C60D6B /* OpenCameraOrPhoto.m in Sources */,
 				BF98ECF22109650B00DF3019 /* ShowPropertyFunc.m in Sources */,
+				BF525F6A231DFF070018667C /* NSDate+BeforeDate.m in Sources */,
 				BFE4E4C81FC7BFC300FA757E /* XJFontSize.m in Sources */,
 				BF41E6A120B50D210093A77B /* UIColor+XJHex.m in Sources */,
 				BF98ECF7210AEA1E00DF3019 /* NSNull+JSON.m in Sources */,
@@ -854,6 +885,7 @@
 				BF60C54321256CDF0022B0E7 /* XJCornerRadius.m in Sources */,
 				BF690BED20EF920900293A7C /* XJConstraintEqualToConstant.m in Sources */,
 				BFC22B081FCD5A460034739A /* UIViewController+Type.m in Sources */,
+				BF13B883235062FB00C24350 /* XJImageCompress.m in Sources */,
 				BF889BDF21031CA900CFEDB6 /* XJSemaphore.m in Sources */,
 				BFE4E4D71FC7C03E00FA757E /* XJElasticVC.m in Sources */,
 				BF52B4901FD0458E0046C9A9 /* UIView+XJViewNewXIB.m in Sources */,

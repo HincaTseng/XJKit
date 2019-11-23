@@ -1,15 +1,14 @@
 //
-//  XJImageCompress.m
-//  XJKit
+//  NSData+Compress.m
+//  test
 //
-//  Created by 曾宪杰 on 2019/10/11.
-//  Copyright © 2019 曾宪杰. All rights reserved.
+//  Created by 曾宪杰 on 2019/10/12.
+//  Copyright © 2019 Hincat. All rights reserved.
 //
 
-#import "XJImageCompress.h"
+#import "NSData+Compress.h"
 
-@implementation XJImageCompress
-
+@implementation NSData (Compress)
 + (NSData *)compressImage:(UIImage *)sourceImg {
     CGSize imageSize = sourceImg.size;
     CGFloat width = imageSize.width;

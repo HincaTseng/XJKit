@@ -65,6 +65,8 @@
 		BF690BEC20EF920900293A7C /* XJConstraintEqualToConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = BF690BEA20EF920900293A7C /* XJConstraintEqualToConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF690BED20EF920900293A7C /* XJConstraintEqualToConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = BF690BEB20EF920900293A7C /* XJConstraintEqualToConstant.m */; };
 		BF6FCD5C200DDD59008CE363 /* XJGCD_Multithread.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6FCD5A200DDD59008CE363 /* XJGCD_Multithread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF7474972388F041008DF19E /* NSString+SHA_256.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7474952388F041008DF19E /* NSString+SHA_256.h */; };
+		BF7474982388F041008DF19E /* NSString+SHA_256.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7474962388F041008DF19E /* NSString+SHA_256.m */; };
 		BF7A434421F5E0E30075CED9 /* XJMD5File.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7A434221F5E0E30075CED9 /* XJMD5File.h */; };
 		BF7A434521F5E0E30075CED9 /* XJMD5File.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7A434321F5E0E30075CED9 /* XJMD5File.m */; };
 		BF7D4A9E21A3949000730CE9 /* XJNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7D4A9C21A3949000730CE9 /* XJNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -178,6 +180,8 @@
 		BF690BEA20EF920900293A7C /* XJConstraintEqualToConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJConstraintEqualToConstant.h; sourceTree = "<group>"; };
 		BF690BEB20EF920900293A7C /* XJConstraintEqualToConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJConstraintEqualToConstant.m; sourceTree = "<group>"; };
 		BF6FCD5A200DDD59008CE363 /* XJGCD_Multithread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJGCD_Multithread.h; sourceTree = "<group>"; };
+		BF7474952388F041008DF19E /* NSString+SHA_256.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA_256.h"; sourceTree = "<group>"; };
+		BF7474962388F041008DF19E /* NSString+SHA_256.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA_256.m"; sourceTree = "<group>"; };
 		BF7A434221F5E0E30075CED9 /* XJMD5File.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJMD5File.h; sourceTree = "<group>"; };
 		BF7A434321F5E0E30075CED9 /* XJMD5File.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJMD5File.m; sourceTree = "<group>"; };
 		BF7D4A9C21A3949000730CE9 /* XJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJNavigationController.h; sourceTree = "<group>"; };
@@ -454,6 +458,15 @@
 			path = XJGCD;
 			sourceTree = "<group>";
 		};
+		BF7474942388F02C008DF19E /* SHA256 */ = {
+			isa = PBXGroup;
+			children = (
+				BF7474952388F041008DF19E /* NSString+SHA_256.h */,
+				BF7474962388F041008DF19E /* NSString+SHA_256.m */,
+			);
+			path = SHA256;
+			sourceTree = "<group>";
+		};
 		BF7A434121F5E0CE0075CED9 /* XJMD5File */ = {
 			isa = PBXGroup;
 			children = (
@@ -556,6 +569,7 @@
 			isa = PBXGroup;
 			children = (
 				BFC50DC71FBD651500D2FCAA /* XJKit.h */,
+				BF7474942388F02C008DF19E /* SHA256 */,
 				BF13B87F235062D400C24350 /* XJImageCompress */,
 				BF525F66231DFEDC0018667C /* XJDate */,
 				BF022E0E20BFA7A9001A662D /* AFNetworking.framework */,
@@ -725,6 +739,7 @@
 				BFE83D9C20BD1DA90068F639 /* CommonFuction.h in Headers */,
 				BF0721E820FEF1B100630196 /* UIImage+ImageRoundedCorner.h in Headers */,
 				BF690BEC20EF920900293A7C /* XJConstraintEqualToConstant.h in Headers */,
+				BF7474972388F041008DF19E /* NSString+SHA_256.h in Headers */,
 				BF0157042117EFDB007C651F /* UIImage+GaussianBlur.h in Headers */,
 				BF60C54221256CDF0022B0E7 /* XJCornerRadius.h in Headers */,
 				BF41E6A020B50D210093A77B /* UIColor+XJHex.h in Headers */,
@@ -873,6 +888,7 @@
 				BFE4E4C31FC7BFC300FA757E /* XJButton.m in Sources */,
 				BF2D7DBA20E1E1F30050E5D4 /* XJURLSchemeOpen.m in Sources */,
 				BFBB6EB0210087780093DC1F /* UIView+Extension.m in Sources */,
+				BF7474982388F041008DF19E /* NSString+SHA_256.m in Sources */,
 				BF0157022117EFDB007C651F /* UIImage+QuickShot.m in Sources */,
 				BF41E6AB20B50EF90093A77B /* UIImage+XJCameraTools.m in Sources */,
 				BF57824420896C2A003DF8DF /* XJMacAddress.m in Sources */,

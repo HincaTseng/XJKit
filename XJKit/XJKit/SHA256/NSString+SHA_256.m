@@ -24,4 +24,32 @@
 //    return output;
 //}
 
+/*
+ 
+  NSString *filePatch = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0]stringByAppendingPathComponent:@"xiaoxi.plist"];
+      NSLog(@"------filepath---%@",filePatch);
+
+  NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+  [dic setValue:@"1" forKey:@"break"];
+  [dic setValue:@"2019-11-23" forKey:@"day"];
+  
+  [dic writeToFile:filePatch atomically:YES];
+  //查看
+  NSMutableDictionary *dataDictionary = [[NSMutableDictionary alloc] initWithContentsOfFile:filePatch];
+  NSString *obj = SHA256(filePatch);
+  NSLog(@"---plist一开始保存时候的内容---%@ sha 256 %@\n",dataDictionary,obj);
+
+ 
+  //修改
+  NSMutableDictionary *editDic = [[NSMutableDictionary alloc] initWithContentsOfFile:filePatch];;
+  [editDic setObject:@"2" forKey:@"break"];
+  [editDic writeToFile:filePatch atomically:YES];
+  
+  NSString *objj = SHA256(filePatch);
+  NSLog(@"---plist做过操作之后的字典里面内容---%@sha 256 %@\n",editDic,objj);
+  
+
+ 
+ */
+
 @end
